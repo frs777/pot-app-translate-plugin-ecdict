@@ -1,4 +1,4 @@
-# Pot-App Wtyczka Słownika Angielsko-Chińskiego (oparta na [ECDICT](https://github.com/skywind3000/ECDICT))
+# Pot-App Wtyczka Tłumaczeniowa
 
 ## Sposób użycia
 
