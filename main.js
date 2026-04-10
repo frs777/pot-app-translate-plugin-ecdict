@@ -43,15 +43,15 @@ async function translate(text, _from, _to, options) {
                 let temp = item.split(":");
                 let word = temp[1];
                 switch (temp[0]) {
-                    case "p": associations.push(`过去式: ${word}`); break;
-                    case "d": associations.push(`过去分词: ${word}`); break;
-                    case "i": associations.push(`现在分词: ${word}`); break;
-                    case "3": associations.push(`第三人称单数: ${word}`); break;
-                    case "r": associations.push(`比较级: ${word}`); break;
-                    case "t": associations.push(`最高级: ${word}`); break;
-                    case "s": associations.push(`复数: ${word}`); break;
-                    case "0": associations.push(`Lemma: ${word}`); break;
-                    case "1": associations.push(`Lemma: ${word}`); break;
+                    case "p": associations.push(`Czas przeszły: ${word}`); break;
+                    case "d": associations.push(`Imiesłów bierny: ${word}`); break;
+                    case "i": associations.push(`Imiesłów czynny: ${word}`); break;
+                    case "3": associations.push(`3. os. lp: ${word}`); break;
+                    case "r": associations.push(`Stopień wyższy: ${word}`); break;
+                    case "t": associations.push(`Stopień najwyższy: ${word}`); break;
+                    case "s": associations.push(`Liczba mnoga: ${word}`); break;
+                    case "0": associations.push(`Forma podstawowa: ${word}`); break;
+                    case "1": associations.push(`Forma podstawowa: ${word}`); break;
                 }
             }
         }
